@@ -39,6 +39,7 @@
     border-radius: 15px;
     padding: 10px;
     align-items: center;
+    /* margin-inline: auto; */
 }
 .projects div{
     border: 2px solid rgb(184, 177, 177);
@@ -95,4 +96,30 @@
     padding: 10px;
     border: 1px solid black;
     border-radius: 15px;
+}
+@media screen and (max-width:896px){
+    .portFolioImage{
+        margin-inline: auto;
+    }
+    .aboutMeWithImage{
+        display: flex;
+        flex-direction: column;
+    }
+    .accomplishment{
+        display: flex;
+        flex-direction: column;
+        gap : 10px;
+    }
+    .projects{
+        display: flex;
+        flex-direction: column;
+        gap : 10px;
+    }
+    .projects div{
+        height : 4  0%;
+        width : 100%;
+    }
+    .projects button{
+        margin-right:auto;
+    }
 }

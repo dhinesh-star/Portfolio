@@ -1,0 +1,98 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header{
+    background-color: blue;
+    color: white;
+    height: 100px;
+    box-sizing: border-box;
+    padding: 25px;
+    text-align: center;
+}
+.header h1, .header h4 {
+    margin: 0; /* Set margin to zero */
+}
+.portFolioImage{
+    height: 450px;
+    width: 450px;
+}
+.aboutMeWithImage{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.descriptionSection{
+    border:2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+}
+.aboutMeWithImage .descriptionSection ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.projects{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    border: 5px double black;
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+}
+.projects div{
+    border: 2px solid rgb(184, 177, 177);
+    border-radius: 15px;
+    height : 40%;
+    width : 28%;
+    box-sizing: content-box;
+}
+.projects img{
+    height: 250px;
+    width: 100%;
+}
+.projects button{
+    color: white;
+    background-color: blue;
+    border-radius: 25px;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    margin-inline: 125px;
+}
+
+.footer{
+    border: 1px solid black;
+    border-radius: 15px;
+    height: 150px;
+    width: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-inline: auto;
+}
+.footer p{
+    text-align: center  ;
+}
+.accomplishment{
+    padding: 10px;
+    display: flex;
+    border: 2px solid black;
+    border-radius: 15px;
+    justify-content: space-around;
+    
+}
+.accomplishment img{
+    height: 250px;
+    width: 100%;
+}
+.accomplishment div{
+    border: 1px solid black;
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding : 20px;
+}
+.companyExperience{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+}

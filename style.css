@@ -97,7 +97,7 @@
     border: 1px solid black;
     border-radius: 15px;
 }
-@media screen and (max-width:896px){
+@media screen and (max-width: 480px){
     .portFolioImage{
         margin-inline: auto;
     }
